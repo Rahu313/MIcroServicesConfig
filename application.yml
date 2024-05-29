@@ -18,6 +18,6 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka/
-      eurekaConnectionIdleTimeoutInSeconds: 30
-      eurekaServerReadTimeoutSeconds: 30
-      eurekaServerConnectTimeoutSeconds: 30
+      eurekaConnectionIdleTimeoutInSeconds: 60
+      eurekaServerReadTimeoutSeconds: 60
+      eurekaServerConnectTimeoutSeconds: 60
