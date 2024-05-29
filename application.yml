@@ -1,9 +1,6 @@
 server:
   port: 8085 
-  
-spring:   
-  application:
-   name: Config-Default
+
   cloud:
     config:
       server:
